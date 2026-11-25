@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Test and coverage
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+coverage.json
+htmlcov/
+junit.xml
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
