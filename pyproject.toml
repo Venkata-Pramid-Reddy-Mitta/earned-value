@@ -38,6 +38,11 @@ target-version = "py310"
 [tool.ruff.lint]
 select = ["E", "F", "I", "W", "B", "UP"]
 
+[tool.ruff.lint.per-file-ignores]
+# Experiments insert their own directory on sys.path before importing the shared
+# helper, so the module-level imports that follow are deliberately not at the top.
+"experiments/*.py" = ["E402"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"
