@@ -47,7 +47,7 @@ def _box(x, y, w, h, title, sub, fill):
 def build_svg() -> str:
     boxes = [
         _box(30, 60, 180, 70, "program.csv", "seeded fixture, 16 tasks", "#e0f2fe"),
-        _box(30, 300, 180, 70, "generator", "cost on calendar,", "#e0f2fe"),
+        _box(30, 300, 180, 70, "generator", "cost on the calendar", "#e0f2fe"),
         _box(360, 60, 190, 70, "EVM engine", "PV / EV / AC -> CPI, SPI", "#dcfce7"),
         _box(360, 300, 190, 70, "illusion detector", "burn-healthy vs EV-late", "#fef9c3"),
         _box(690, 60, 180, 70, "report / gate", "exit 0 / 1 / 2", "#ede9fe"),

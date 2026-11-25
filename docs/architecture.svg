@@ -7,7 +7,7 @@
 <text x="120.0" y="105" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#334155">seeded fixture, 16 tasks</text>
 <rect x="30" y="300" width="180" height="70" rx="8" fill="#e0f2fe" stroke="#334155" stroke-width="1.5"/>
 <text x="120.0" y="326" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="15" font-weight="bold" fill="#0f172a">generator</text>
-<text x="120.0" y="345" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#334155">cost on calendar,</text>
+<text x="120.0" y="345" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#334155">cost on the calendar</text>
 <rect x="360" y="60" width="190" height="70" rx="8" fill="#dcfce7" stroke="#334155" stroke-width="1.5"/>
 <text x="455.0" y="86" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="15" font-weight="bold" fill="#0f172a">EVM engine</text>
 <text x="455.0" y="105" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#334155">PV / EV / AC -> CPI, SPI</text>
