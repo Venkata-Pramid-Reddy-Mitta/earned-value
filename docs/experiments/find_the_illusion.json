@@ -1,0 +1,94 @@
+{
+  "budget_band_pct": 5,
+  "first_illusion_week": 1,
+  "illusion_weeks": 14,
+  "spi_late_threshold": 0.95,
+  "weeks": [
+    {
+      "burn_gap_pct_of_bac": 0.02,
+      "hidden_slip_dollars": 2004.55,
+      "spi": 0.8998,
+      "week": 1
+    },
+    {
+      "burn_gap_pct_of_bac": 0.04,
+      "hidden_slip_dollars": 4009.09,
+      "spi": 0.8998,
+      "week": 2
+    },
+    {
+      "burn_gap_pct_of_bac": 0.08,
+      "hidden_slip_dollars": 8484.45,
+      "spi": 0.883,
+      "week": 3
+    },
+    {
+      "burn_gap_pct_of_bac": 0.1,
+      "hidden_slip_dollars": 13883.71,
+      "spi": 0.8873,
+      "week": 4
+    },
+    {
+      "burn_gap_pct_of_bac": 0.12,
+      "hidden_slip_dollars": 19282.97,
+      "spi": 0.8891,
+      "week": 5
+    },
+    {
+      "burn_gap_pct_of_bac": 0.16,
+      "hidden_slip_dollars": 25602.63,
+      "spi": 0.8919,
+      "week": 6
+    },
+    {
+      "burn_gap_pct_of_bac": 0.99,
+      "hidden_slip_dollars": 17890.46,
+      "spi": 0.936,
+      "week": 7
+    },
+    {
+      "burn_gap_pct_of_bac": 1.01,
+      "hidden_slip_dollars": 24334.74,
+      "spi": 0.9281,
+      "week": 8
+    },
+    {
+      "burn_gap_pct_of_bac": 1.04,
+      "hidden_slip_dollars": 30779.03,
+      "spi": 0.9226,
+      "week": 9
+    },
+    {
+      "burn_gap_pct_of_bac": 1.06,
+      "hidden_slip_dollars": 38334.06,
+      "spi": 0.9204,
+      "week": 10
+    },
+    {
+      "burn_gap_pct_of_bac": 1.58,
+      "hidden_slip_dollars": 30918.28,
+      "spi": 0.9441,
+      "week": 11
+    },
+    {
+      "burn_gap_pct_of_bac": 2.11,
+      "hidden_slip_dollars": 38407.19,
+      "spi": 0.947,
+      "week": 13
+    },
+    {
+      "burn_gap_pct_of_bac": 2.11,
+      "hidden_slip_dollars": 45784.9,
+      "spi": 0.9434,
+      "week": 14
+    },
+    {
+      "burn_gap_pct_of_bac": 3.89,
+      "hidden_slip_dollars": 73505.86,
+      "spi": 0.9485,
+      "week": 22
+    }
+  ],
+  "worst_hidden_slip_dollars": 73505.86,
+  "worst_hidden_slip_week": 22
+}

@@ -1,0 +1,9 @@
+{
+  "bac": 2500000.0,
+  "eac_within_5pct_of_final_by_week": 1,
+  "final_actual_cost": 2839975.0,
+  "final_cpi": 0.8803,
+  "final_overrun_dollars": 339975.0,
+  "final_overrun_pct": 13.6,
+  "planned_weeks": 40
+}

@@ -1,0 +1,255 @@
+{
+  "identity": "actual_cost - planned_value == schedule_variance - cost_variance",
+  "max_identity_residual_dollars": 0.0,
+  "most_concealed_cost_variance": -170670.55,
+  "most_concealed_schedule_variance": -73505.86,
+  "most_concealed_week": 22,
+  "weeks": [
+    {
+      "burn_gap": 491.67,
+      "cost_variance": -2496.22,
+      "schedule_variance": -2004.55,
+      "week": 1
+    },
+    {
+      "burn_gap": 983.34,
+      "cost_variance": -4992.43,
+      "schedule_variance": -4009.09,
+      "week": 2
+    },
+    {
+      "burn_gap": 2006.98,
+      "cost_variance": -10491.44,
+      "schedule_variance": -8484.45,
+      "week": 3
+    },
+    {
+      "burn_gap": 2538.7,
+      "cost_variance": -16422.42,
+      "schedule_variance": -13883.71,
+      "week": 4
+    },
+    {
+      "burn_gap": 3070.42,
+      "cost_variance": -22353.4,
+      "schedule_variance": -19282.97,
+      "week": 5
+    },
+    {
+      "burn_gap": 3878.57,
+      "cost_variance": -29481.2,
+      "schedule_variance": -25602.63,
+      "week": 6
+    },
+    {
+      "burn_gap": 24686.71,
+      "cost_variance": -42577.17,
+      "schedule_variance": -17890.46,
+      "week": 7
+    },
+    {
+      "burn_gap": 25344.26,
+      "cost_variance": -49679.01,
+      "schedule_variance": -24334.74,
+      "week": 8
+    },
+    {
+      "burn_gap": 26001.81,
+      "cost_variance": -56780.84,
+      "schedule_variance": -30779.03,
+      "week": 9
+    },
+    {
+      "burn_gap": 26529.26,
+      "cost_variance": -64863.32,
+      "schedule_variance": -38334.06,
+      "week": 10
+    },
+    {
+      "burn_gap": 39556.71,
+      "cost_variance": -70474.99,
+      "schedule_variance": -30918.28,
+      "week": 11
+    },
+    {
+      "burn_gap": 52678.5,
+      "cost_variance": -83707.99,
+      "schedule_variance": -31029.49,
+      "week": 12
+    },
+    {
+      "burn_gap": 52768.31,
+      "cost_variance": -91175.51,
+      "schedule_variance": -38407.19,
+      "week": 13
+    },
+    {
+      "burn_gap": 52858.13,
+      "cost_variance": -98643.03,
+      "schedule_variance": -45784.9,
+      "week": 14
+    },
+    {
+      "burn_gap": 83351.98,
+      "cost_variance": -116223.79,
+      "schedule_variance": -32871.81,
+      "week": 15
+    },
+    {
+      "burn_gap": 82991.83,
+      "cost_variance": -122614.11,
+      "schedule_variance": -39622.28,
+      "week": 16
+    },
+    {
+      "burn_gap": 82631.68,
+      "cost_variance": -129004.42,
+      "schedule_variance": -46372.74,
+      "week": 17
+    },
+    {
+      "burn_gap": 82474.7,
+      "cost_variance": -136372.03,
+      "schedule_variance": -53897.32,
+      "week": 18
+    },
+    {
+      "burn_gap": 90095.5,
+      "cost_variance": -142651.28,
+      "schedule_variance": -52555.77,
+      "week": 19
+    },
+    {
+      "burn_gap": 97785.61,
+      "cost_variance": -155313.67,
+      "schedule_variance": -57528.06,
+      "week": 20
+    },
+    {
+      "burn_gap": 97668.23,
+      "cost_variance": -162185.99,
+      "schedule_variance": -64517.76,
+      "week": 21
+    },
+    {
+      "burn_gap": 97164.68,
+      "cost_variance": -170670.55,
+      "schedule_variance": -73505.86,
+      "week": 22
+    },
+    {
+      "burn_gap": 112661.13,
+      "cost_variance": -177025.93,
+      "schedule_variance": -64364.8,
+      "week": 23
+    },
+    {
+      "burn_gap": 128166.41,
+      "cost_variance": -185496.76,
+      "schedule_variance": -57330.35,
+      "week": 24
+    },
+    {
+      "burn_gap": 144663.94,
+      "cost_variance": -210539.17,
+      "schedule_variance": -65875.23,
+      "week": 25
+    },
+    {
+      "burn_gap": 143987.95,
+      "cost_variance": -218743.94,
+      "schedule_variance": -74755.99,
+      "week": 26
+    },
+    {
+      "burn_gap": 157311.97,
+      "cost_variance": -224655.23,
+      "schedule_variance": -67343.26,
+      "week": 27
+    },
+    {
+      "burn_gap": 170858.68,
+      "cost_variance": -231988.36,
+      "schedule_variance": -61129.67,
+      "week": 28
+    },
+    {
+      "burn_gap": 184405.39,
+      "cost_variance": -246919.19,
+      "schedule_variance": -62513.8,
+      "week": 29
+    },
+    {
+      "burn_gap": 183640.53,
+      "cost_variance": -254544.22,
+      "schedule_variance": -70903.69,
+      "week": 30
+    },
+    {
+      "burn_gap": 208027.18,
+      "cost_variance": -266128.65,
+      "schedule_variance": -58101.47,
+      "week": 31
+    },
+    {
+      "burn_gap": 220526.34,
+      "cost_variance": -280324.61,
+      "schedule_variance": -59798.27,
+      "week": 32
+    },
+    {
+      "burn_gap": 220357.63,
+      "cost_variance": -286775.25,
+      "schedule_variance": -66417.62,
+      "week": 33
+    },
+    {
+      "burn_gap": 220338.67,
+      "cost_variance": -295037.55,
+      "schedule_variance": -74698.88,
+      "week": 34
+    },
+    {
+      "burn_gap": 247107.03,
+      "cost_variance": -300527.33,
+      "schedule_variance": -53420.3,
+      "week": 35
+    },
+    {
+      "burn_gap": 273875.4,
+      "cost_variance": -320452.56,
+      "schedule_variance": -46577.16,
+      "week": 36
+    },
+    {
+      "burn_gap": 286261.65,
+      "cost_variance": -326356.14,
+      "schedule_variance": -40094.49,
+      "week": 37
+    },
+    {
+      "burn_gap": 286202.97,
+      "cost_variance": -330607.07,
+      "schedule_variance": -44404.1,
+      "week": 38
+    },
+    {
+      "burn_gap": 296810.96,
+      "cost_variance": -332813.78,
+      "schedule_variance": -36002.82,
+      "week": 39
+    },
+    {
+      "burn_gap": 307418.96,
+      "cost_variance": -335020.49,
+      "schedule_variance": -27601.54,
+      "week": 40
+    },
+    {
+      "burn_gap": 339975.0,
+      "cost_variance": -339975.0,
+      "schedule_variance": -0.0,
+      "week": 41
+    }
+  ]
+}
