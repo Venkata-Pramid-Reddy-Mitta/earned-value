@@ -1,0 +1,130 @@
+{
+  "anchors": {
+    "bac_dollars": [
+      "$2,500,000"
+    ],
+    "completion_week": [
+      "week 41",
+      "finished in week 41"
+    ],
+    "coverage_line_pct": [
+      "99% line coverage",
+      "99% coverage"
+    ],
+    "eac_within_5pct_week": [
+      "within 5% of the final cost by week 1",
+      "by week 1"
+    ],
+    "final_actual_cost": [
+      "$2,839,975"
+    ],
+    "final_cpi": [
+      "CPI of 0.880",
+      "CPI stays at 0.880",
+      "CPI held at 0.880"
+    ],
+    "identity_residual": [
+      "maximum residual of 0.00",
+      "identity residual of 0.00"
+    ],
+    "illusion_weeks": [
+      "14 reporting weeks",
+      "14 illusion weeks"
+    ],
+    "overrun_dollars": [
+      "$339,975"
+    ],
+    "overrun_pct": [
+      "13.6%"
+    ],
+    "planned_weeks": [
+      "40 week baseline",
+      "40-week baseline"
+    ],
+    "spi_completion": [
+      "SPI of 1.000",
+      "SPI reads 1.000",
+      "recovers to 1.000"
+    ],
+    "spi_planned_end": [
+      "SPI recovers to 0.989",
+      "reads 0.989",
+      "0.989 at the planned end"
+    ],
+    "spi_trough": [
+      "SPI trough 0.883",
+      "trough of 0.883",
+      "trough 0.883"
+    ],
+    "task_count": [
+      "16 tasks"
+    ],
+    "tests_total": [
+      "87 tests"
+    ],
+    "workstream_count": [
+      "4 workstreams"
+    ],
+    "worst_slip_dollars": [
+      "$73,506"
+    ],
+    "worst_slip_week": [
+      "week 22"
+    ]
+  },
+  "checked_documents": [
+    "README.md",
+    "docs/defense-guide.md",
+    "docs/adr/ADR-001-earned-value-over-burn-up.md",
+    "docs/adr/ADR-003-spi-blindness-boundary.md"
+  ],
+  "display": {
+    "bac_dollars": "$2,500,000",
+    "completion_week": "41",
+    "coverage_line_pct": "99",
+    "eac_within_5pct_week": "1",
+    "final_actual_cost": "$2,839,975",
+    "final_cpi": "0.880",
+    "identity_residual": "0.00",
+    "illusion_weeks": "14",
+    "overrun_dollars": "$339,975",
+    "overrun_pct": "13.6%",
+    "planned_weeks": "40",
+    "spi_completion": "1.000",
+    "spi_planned_end": "0.989",
+    "spi_trough": "0.883",
+    "task_count": "16",
+    "tests_total": "87",
+    "workstream_count": "4",
+    "worst_slip_dollars": "$73,506",
+    "worst_slip_week": "22"
+  },
+  "dollar_values": [
+    "$2,500,000",
+    "$2,839,975",
+    "$339,975",
+    "$73,506"
+  ],
+  "metrics": {
+    "bac_dollars": 2500000,
+    "completion_week": 41,
+    "coverage_line_pct": 99,
+    "eac_within_5pct_week": 1,
+    "final_actual_cost": 2839975,
+    "final_cpi": 0.8803,
+    "identity_residual": 0.0,
+    "illusion_weeks": 14,
+    "overrun_dollars": 339975,
+    "overrun_pct": 13.6,
+    "planned_weeks": 40,
+    "spi_completion": 1.0,
+    "spi_planned_end": 0.989,
+    "spi_trough": 0.883,
+    "task_count": 16,
+    "tests_total": 87,
+    "workstream_count": 4,
+    "worst_slip_dollars": 73506,
+    "worst_slip_week": 22
+  },
+  "note": "every value here is produced by running the suite and the four experiments"
+}
