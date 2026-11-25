@@ -1,0 +1,34 @@
+{
+  "commands": [
+    {
+      "command": "python -m earned_value.cli report --week 22",
+      "exit_code": 0,
+      "duration_s": 0.152,
+      "stdout_lines": 2
+    },
+    {
+      "command": "python -m earned_value.cli gate --week 5",
+      "exit_code": 1,
+      "duration_s": 0.11,
+      "stdout_lines": 2
+    },
+    {
+      "command": "python -m earned_value.cli gate --week 40",
+      "exit_code": 1,
+      "duration_s": 0.118,
+      "stdout_lines": 2
+    },
+    {
+      "command": "python -m earned_value.cli illusions",
+      "exit_code": 0,
+      "duration_s": 0.106,
+      "stdout_lines": 21
+    },
+    {
+      "command": "python experiments/spi_blindness.py",
+      "exit_code": 0,
+      "duration_s": 0.105,
+      "stdout_lines": 5
+    }
+  ]
+}
