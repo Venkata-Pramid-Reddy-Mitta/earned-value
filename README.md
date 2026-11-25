@@ -115,17 +115,24 @@ most of the budget was committed.
 The cost of earned value is the extra input: someone must assess percent complete per task honestly.
 The boundary section below says where even that is not enough.
 
-## The bug the measurement found
+## The bugs the measurement found
 
-The committed fixture is written to a CSV at six decimal places, and an early check asserted that the
-reloaded program earned exactly `2_500_000` dollars. It did not: the reloaded total came back off by
-about `1.1e-05` dollars, because sixteen tasks each rounded to six places and the roundings did not
-cancel. The equality assertion went red over a thousandth of a cent.
+**The fixture round-trip lost a fraction of a cent.** The committed fixture is written to a CSV at six
+decimal places, and an early check asserted that the reloaded program earned exactly `2_500_000`
+dollars. It did not: the reloaded total came back off by about `1.1e-05` dollars, because sixteen
+tasks each rounded to six places and the roundings did not cancel. The equality assertion went red
+over a thousandth of a cent. The fix was to price money in the fixture as the decimal it is and assert
+a cent-level tolerance, not exact float equality. The lesson is pinned permanently by
+`test_the_csv_round_trip_needs_a_cent_tolerance`, which asserts both that the exact check is wrong and
+that the tolerance is right.
 
-The fix was to price money in the fixture as the decimal it is and assert a cent-level tolerance, not
-exact float equality. The lesson is pinned permanently by
-`test_the_csv_round_trip_needs_a_cent_tolerance`, which asserts both that the exact check is wrong
-and that the tolerance is right, so nobody reintroduces the equality.
+**The number checker flagged a figure that was correct.** The reverse check scans the documents for
+dollar amounts and fails on any the code does not produce. It is a regex, and the regex for a dollar
+amount reads `$2.5` out of the string `$2.5M`, stops at the `M`, and reports `$2.5` as an unbacked
+figure, failing the build on a sentence that was perfectly correct. The fix was to drop the ambiguous
+millions shorthand from the guarded set and state the budget only as its exact comma figure, so every
+dollar the checker sees is one it can trace. The episode is the reason the receipts guard anchor
+phrases (a number plus a few words) rather than raw digits.
 
 ## Architecture
 
