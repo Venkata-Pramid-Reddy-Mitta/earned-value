@@ -5,6 +5,7 @@ versus plan) into the two it hides: a cost effect and a schedule effect. On a se
 program it finds the 14 reporting weeks where spend sat within 5% of budget while the schedule was
 already late, and prices the worst concealed slip at $73,506.**
 
+[![ci](https://github.com/Venkata-Pramid-Reddy-Mitta/earned-value/actions/workflows/ci.yml/badge.svg)](https://github.com/Venkata-Pramid-Reddy-Mitta/earned-value/actions/workflows/ci.yml)
 ![tests](https://img.shields.io/badge/tests-87%20passing-brightgreen)
 ![coverage](https://img.shields.io/badge/coverage-99%25-brightgreen)
 ![python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue)
