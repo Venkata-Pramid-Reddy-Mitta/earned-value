@@ -25,9 +25,9 @@ is placed by hand.
 ## Alternatives considered
 
 - **Inject a schedule variance directly.** Rejected: it would hardcode the answer. The variance has
-  to emerge from a mechanism a reviewer recognises, or the demonstration proves nothing.
+  to emerge from a mechanism a reviewer recognizes, or the demonstration proves nothing.
 - **Random cost and value with a target correlation.** Rejected: harder to defend and less realistic
-  than the staffing mechanism, which a delivery manager will recognise immediately.
+  than the staffing mechanism, which a delivery manager will recognize immediately.
 
 ## Consequences
 

@@ -4,7 +4,7 @@ Status: accepted
 
 ## Context
 
-The usual artefact for tracking a delivery program's cost is a burn chart: cumulative actual spend
+The usual artifact for tracking a delivery program's cost is a burn chart: cumulative actual spend
 plotted against a planned cost baseline. It is one line against another, and the gap between them is
 a single scalar per week. A program reported as "spend within 5% of budget" is a statement about that
 gap alone.
@@ -23,7 +23,7 @@ VAC, TCPI. Attribute the burn gap with the identity
 
 ## Alternatives considered
 
-- **Burn-up of spend only.** Rejected: it is exactly the artefact whose blind spot this project
+- **Burn-up of spend only.** Rejected: it is exactly the artifact whose blind spot this project
   exists to expose. Keeping it as the only view would reproduce the problem.
 - **Schedule variance in time units from the start (Earned Schedule).** A real improvement near the
   finish, but it changes the subject from the classic decomposition and hides the teaching point that

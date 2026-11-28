@@ -1,4 +1,4 @@
-# ADR-004: The committed fixture is the artefact, not the generator
+# ADR-004: The committed fixture is the artifact, not the generator
 
 Status: accepted
 
@@ -11,7 +11,7 @@ identical across every future numpy release.
 
 ## Decision
 
-Treat the committed `data/program.csv` as the authoritative artefact. `make verify`, the experiments,
+Treat the committed `data/program.csv` as the authoritative artifact. `make verify`, the experiments,
 and the metrics collector all read that file; none of them regenerates it. `make regen` exists to
 rebuild the fixture but is deliberately excluded from `verify`, and the README says that reproducing
 the published figures from a fresh draw requires the pinned numpy.

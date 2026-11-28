@@ -171,7 +171,7 @@ This is a section, not a footnote.
 
 - **SPI goes blind near completion.** Earned value over planned value both converge on the budget as
   the work finishes, so SPI returns toward 1.0 regardless of how late the finish is. Here the
-  **SPI trough 0.883** at week 3 recovers to **SPI recovers to 0.989** at the planned end and an exact
+  **SPI trough 0.883** at week 3 recovers to **0.989** at the planned end and an exact
   **SPI of 1.000** at completion in **week 41**, a week past the baseline. CPI shows no such recovery.
   The honest schedule read in the final weeks needs Earned Schedule (time units, not dollars), which
   this repository deliberately does not implement. See

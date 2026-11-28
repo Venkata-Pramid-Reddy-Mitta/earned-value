@@ -37,7 +37,7 @@ earned value?", which is the opening for the SPI blindness boundary.
 - Command: `python experiments/forecast_vs_final.py`
 - Numbers: final overrun **$339,975** (**13.6%** of budget); EAC was **within 5% of the final cost by
   week 1**.
-- If pushed ("CPI being flat is an artefact of your generator"): correct that a flat CPI makes EAC
+- If pushed ("CPI being flat is an artifact of your generator"): correct that a flat CPI makes EAC
   stable early, and a real program's CPI wanders more. The defensible claim is narrower: whenever CPI
   is even roughly stable, EAC leads the burn gap, because EAC reacts to efficiency while the gap also
   moves with schedule.
